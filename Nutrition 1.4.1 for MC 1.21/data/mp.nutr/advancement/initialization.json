@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "$mp.nutr.fakeplayer"
+              },
+              "score": "mp.nutr.dp_avg"
+            },
+            "range": 40
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mp.nutr:internals/initialization"
+  }
+}
