@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_chicken"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mp.nutr:foods/cooked_chicken"
+  }
+}
