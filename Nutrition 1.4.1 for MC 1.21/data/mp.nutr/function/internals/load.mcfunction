@@ -1,6 +1,7 @@
 #adds the scoreboards that are the foundation for the data pack
 scoreboard objectives add mp.nutr.dp_avg dummy "Average DP"
 scoreboard objectives add mp.nutr.dp_pct dummy "DP Trigger Chance"
+scoreboard objectives add mp.nutr.last_active_init dummy "DP of Last Food"
 scoreboard objectives add mp.nutr.effect dummy "Effect Trigger Chance"
 scoreboard objectives add mp.nutr.toggle dummy "Toggle"
 
